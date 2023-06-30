@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(187, 176, 176, 0.65);
+  overflow: hidden;
+}
+#heading {
+  margin: 0;
+  font-size: 80px;
+  font-weight: 580;
+  color: rgb(62, 58, 7);
+}
+#inputs {
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+pre {
+  margin-top: 70px;
+  color: rgb(33, 33, 20);
+}
+input {
+  font-size: large;
+}
+#result,
+#msg {
+  margin-left: 60px;
+  color: rgb(86, 30, 132);
+  font-weight: 700;
+}

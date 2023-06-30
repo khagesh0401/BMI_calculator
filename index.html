@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <p id="heading">BMI Calculator</p>
+    <div id="inputs">
+      Height (cm) :<input
+        type="text"
+        id="height"
+        placeholder="Enter your heights in cm"
+        required
+      />
+
+      <br /><br />
+
+      Weight (kg) :<input
+        type="text"
+        placeholder="Enter your weights in kg"
+        required
+        id="Weight"
+      />
+      <br /><br />
+
+      <input type="submit" value="Calculate" id="submit" onclick="func()" />
+      <br /><br />
+      <div id="result"></div>
+      <br />
+      <div id="msg"></div>
+
+      <pre>
+      BMI Guidlines:- 
+         < 19 :-Underweight
+      19 - 24 :-Normal 
+      25 - 29 :-Overweight 
+      30 - 34 :-Obesity(I)
+      35 - 39 :-Obesity(II) 
+      40 - 54 :-Obesity(III)
+    </pre
+      >
+    </div>
+  </body>
+</html>
